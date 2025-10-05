@@ -1,0 +1,23 @@
+# === Java / Maven ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+*.log
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+
+# === OS / System ===
+.DS_Store
+Thumbs.db
+
+# === Environnement ===
+.env
+*.env
+
+# === Base de données ===
+*.mv.db
+*.h2.db
+*.sqlite
+*.db
