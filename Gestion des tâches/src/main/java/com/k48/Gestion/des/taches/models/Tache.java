@@ -2,6 +2,7 @@ package com.k48.Gestion.des.taches.models;
 
 import jakarta.persistence.*;
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 
 import java.time.LocalDate;
 
@@ -10,8 +11,9 @@ import java.time.LocalDate;
 @Entity
 @Getter
 @Setter
-@AllArgsConstructor
+@SuperBuilder
 @NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "tache")
 public class Tache extends AbstractEntity {
 
