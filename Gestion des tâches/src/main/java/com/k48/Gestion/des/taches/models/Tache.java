@@ -8,15 +8,13 @@ import java.time.LocalDate;
 
 
 @Entity
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "tache")
+public class Tache extends AbstractEntity {
 
-public class Tache {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
     private String titre;
     private String description;
     private String responsable;

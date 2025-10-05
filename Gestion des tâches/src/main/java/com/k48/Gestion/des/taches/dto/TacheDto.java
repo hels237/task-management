@@ -7,7 +7,7 @@ import lombok.*;
 
 import java.time.LocalDate;
 
-@Data
+@Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Schema(description = "Objet de transfert de données pour une tâche")
